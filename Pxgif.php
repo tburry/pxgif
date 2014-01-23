@@ -31,7 +31,7 @@ class Pxgif {
      * @param bool $transparent Whether or not the gif should be transparent.
      * @return string Returns the gif binary as a string.
      */
-    public static function gifStr($r = 0, $g = 0, $b = 0, $transparent = false) {
+    public static function gifStr($r = 0, $g = 0, $b = 0, $transparent = true) {
         return sprintf("%c%c%c%c%c%c%c%c%c%c%c%c%c%c%c%c%c%c%c%c%c%c%c%c%c%c%c%c%c%c%c%c%c%c%c%c%c%c%c%c%c%c%c",
             71, 73, 70, 56, 57, 97, // "GIF89a"
 
